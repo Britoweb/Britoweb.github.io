@@ -1,0 +1,86 @@
+.cadastro-form {
+    width: 100%;
+    height: 49em;
+    padding-top: 10em;
+}
+
+.logo-aws {
+
+    height: 4.233em;
+    padding-left: 5em;
+}
+
+.card-comida {
+    width: 21em;
+    height: 22em;
+}
+
+.img-comida{
+    height: 15em;
+}
+
+.parallax-container {
+    height: 54em;
+}
+
+.img-paralax{
+    height: 15em;
+}
+
+.apresentacao{
+    height: 7em;
+    width: 100%;
+    color: #fff;
+    background-color: #ef6c00;
+    font-size: 3em;
+}
+
+.texto-interno {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 2.9em;
+}
+
+.modal {
+    text-align: center;
+    width: 800px;
+    height: 500px;
+}
+
+.texto-modal {
+    color: #ef6c00;
+    font-style: italic;    
+}
+
+.fundo-nav{
+    background-color: #ef6c00;
+    color: #fff;    
+}
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 45em;
+    
+}
+
+.astrogildo-imagem{
+    flex-grow: 2;
+    align-self: flex-end;
+    float: right;
+}
+
+.texto-astrogildo{
+    flex-grow: 1;
+    align-self: flex-start;
+    clear: left;
+    margin-top: 2em;
+}
+
+.texto-astrogildo h2 {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 1em;
+
+}
