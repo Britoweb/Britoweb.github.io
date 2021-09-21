@@ -1,0 +1,266 @@
+$azul-to: #2E3092 !important;
+$amarelo-to: #fec30b !important;
+$marrom-secad: #896801 !important;
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+
+}
+
+.container-nav {
+  margin: 0 auto;
+  width: 80% !important;
+}
+
+.link-menu a{
+  text-decoration: none !important;
+
+}
+
+.h1-beneficio {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333 !important;
+
+}
+.title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 40px;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold !important;
+}
+.card-center {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+}
+
+.subcontainer-beneficio{
+  height: 100%;
+  width: 100%;
+  border-top: 4px solid $amarelo-to;
+  border-bottom:4px solid $azul-to;
+  padding: 20px 0 20px 0 !important;
+
+}
+
+.amarelo-to-text {
+  color: $amarelo-to;
+}
+
+.amarelo-to{
+  background-color: $amarelo-to;
+}
+
+.azul-to-text {
+  color: $azul-to;
+}
+
+.azul-to {
+  background-color: $azul-to;
+}
+
+.marrom-secad-text {
+  color: $marrom-secad;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.marrom-secad{
+  background-color: $marrom-secad;
+}
+
+.filtros-form {
+  display: grid;
+  grid-template-columns: auto auto 186px;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: end;
+  margin-left: 15px;
+
+  label {
+    color: #333;
+  }
+
+  div:last-of-type{
+    justify-self: flex-end;
+  }
+
+  button{
+  margin-bottom: 5px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+
+    div:last-of-type{
+      justify-self: flex-end;
+      display: inline-flex;
+      flex-direction: row-reverse;
+      gap: 10px 
+    } 
+    
+  }
+}
+
+.u-font-12 {
+  font-size: calc(clamp(16px, 18px, 1.2vw)) !important;
+}
+
+.u-font-18 {
+  font-size: calc(max(18px, 1.8vw)) !important;
+}
+
+.u-font-700 {
+  font-weight: 500 !important;
+}
+
+.u-hidden {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+}
+
+.c-card--size{
+  height: 240px;
+}
+
+
+
+.card-text{
+  word-break: break-all;
+}
+
+.banner-promocao {
+  position: relative;
+  background-color: $amarelo-to;
+  padding: 100px 0 0 0;
+
+  &::before {
+    content: '';
+    background: url(images/beneficios_shapes.svg) center center;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .05;
+    
+  }
+
+  h1 {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  h2{
+    font-size: 25px;
+    margin-top: 0;
+    line-height: 1.4;
+  }
+
+  .container {
+
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-height: 400px;
+
+    img {
+      max-height: 500px;
+    }
+
+    @media screen and (max-width: 600px) {
+      
+      grid-template-columns: repeat(1, 1fr);  
+
+      img {
+        display: none;
+      }
+    }
+
+  }
+}
+
+.filtros {
+  background: #eef2f1;
+  padding: 20px 0;
+  margin-bottom: 80px;
+}
+
+.banner-cidade {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 300px;
+  input {
+    border: 1px solid $azul-to;
+    border-radius: 25px !important;
+    text-indent: 16px;
+    color: $azul-to;
+  }
+
+  & .prefix ~ label {
+    margin-left: 4.5rem;
+  }
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  .card {
+    border-radius: 8px !important;
+    overflow: hidden;
+
+    .badge {
+      float: left;
+      color: #fff;
+      background-color:#2e7d32 ;
+      font-size: 14px;
+      margin-left: 0;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+  }
+
+
+  @media screen and (min-width: 601px) and (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+}
+
+nav.nav-inicio{
+  background-color: transparent;
+  margin-bottom: -64px;
+  position: relative;
+  z-index: 10;
+  box-shadow: none;
+
+  a {
+    color: $azul-to;
+    font-weight: 500;
+  }
+  
+}
+
+.pagination li.active {
+  background-color: $azul-to;
+}
+
+.card-content a{
+  gap: 10px;
+}
