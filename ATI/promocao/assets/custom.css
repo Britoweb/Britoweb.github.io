@@ -128,11 +128,11 @@ body {
 }
 
 .u-font-12 {
-  font-size: 16px !important;
+  font-size: calc(clamp(1rem, 0.8929rem + 0.4762vw, 1.25rem)) !important;
 }
 
 .u-font-18 {
-  font-size: 24px !important;
+  font-size: calc(clamp(1rem, 0.9143rem + 0.5238vw, 1.2rem)) !important;
 }
 
 .u-font-700 {
