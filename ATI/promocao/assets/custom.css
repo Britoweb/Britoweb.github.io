@@ -83,8 +83,8 @@ body {
 .filtros-form {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto 186px;
-      grid-template-columns: auto auto 186px;
+  -ms-grid-columns: auto auto 88px;
+      grid-template-columns: auto auto 88px;
   gap: 12px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
