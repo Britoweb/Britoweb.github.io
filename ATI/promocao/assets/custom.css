@@ -128,11 +128,11 @@ body {
 }
 
 .u-font-12 {
-  font-size: calc(clamp(16px, 18px, 1.2vw)) !important;
+  font-size: 16px !important;
 }
 
 .u-font-18 {
-  font-size: calc(max(18px, 1.8vw)) !important;
+  font-size: 18px !important;
 }
 
 .u-font-700 {
@@ -197,6 +197,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .banner-promocao .container {
+    max-height: none;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
