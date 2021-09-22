@@ -240,6 +240,8 @@ body {
 .cards .card {
   border-radius: 8px !important;
   overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cards .card .badge {
